@@ -1,0 +1,3 @@
+﻿VectorTest.obj : error LNK2019: unresolved external symbol "public: __thiscall Vector::Vector(void)" (??0Vector@@QAE@XZ) referenced in function "private: virtual void __thiscall Vector_HowMany_HowMany0_returns10_Test::TestBody(void)" (?TestBody@Vector_HowMany_HowMany0_returns10_Test@@EAEXXZ)
+VectorTest.obj : error LNK2019: unresolved external symbol "public: int __thiscall Vector::howMany(int)const " (?howMany@Vector@@QBEHH@Z) referenced in function "private: virtual void __thiscall Vector_HowMany_HowMany0_returns10_Test::TestBody(void)" (?TestBody@Vector_HowMany_HowMany0_returns10_Test@@EAEXXZ)
+C:\Users\flole\Dropbox\IKT 2\3. Semester\DOA - Datastrukturer og algoritmer\L1\Vector_ass\Debug\VectorTest.exe : fatal error LNK1120: 2 unresolved externals

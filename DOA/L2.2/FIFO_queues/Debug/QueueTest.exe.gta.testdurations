@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\Users\flole\Dropbox\IKT 2\3. Semester\DOA - Datastrukturer og algoritmer\L2.2\FIFO_queues\Debug\QueueTest.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="Queue.Push_EmptyQueue_Succes" Duration="1" />
+    <TestDuration Test="QueueUnitTest.Ctor_Ctor_QueueEmpty" Duration="1" />
+    <TestDuration Test="QueueUnitTest.Ctor_Push_QueueNotEmpty" Duration="1" />
+    <TestDuration Test="QueueUnitTest.PushPop_PushPop_QueueEmpty" Duration="1" />
+    <TestDuration Test="QueueUnitTest.PushPop_PushTimes2Pop_QueueNotEmpty" Duration="1" />
+    <TestDuration Test="QueueUnitTest.Front_EmptyQueue_ExceptionThrown" Duration="1" />
+    <TestDuration Test="QueueUnitTest.Front_PushTimes3_FrontIsCorrect" Duration="1" />
+    <TestDuration Test="QueueUnitTest.Front_PushTimes3Frontx2_FrontIsCorrect" Duration="1" />
+    <TestDuration Test="QueueUnitTest.Ctor_PushTimes3Pop_FrontIsCorrect" Duration="1" />
+    <TestDuration Test="QueueUnitTest.Ctor_PushTimes3PopTimes2_FrontIsCorrect" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\Users\flole\Dropbox\IKT 2\3. Semester\DOA - Datastrukturer og algoritmer\L1.2-2.1\Node\Debug\NodeTest.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="NodeTest.Ctor_NoArgs_ValueIsDefault" Duration="1" />
+    <TestDuration Test="NodeTest.Ctor_NoArgs_NextIsnullptr" Duration="1" />
+    <TestDuration Test="NodeTest.Ctor_InfoArg_ValueIs2" Duration="1" />
+    <TestDuration Test="NodeTest.Ctor_NextArg_NextIsCorrect" Duration="1" />
+    <TestDuration Test="NodeTest.SetInfo_SetInfo_InfoIsCorrect" Duration="1" />
+    <TestDuration Test="LLToolkitTest.HeadInsert_EmptyList_HeadValueIsCorrect" Duration="1" />
+    <TestDuration Test="LLToolkitTest.HeadInsert_NonEmptyList_HeadValueIsCorrect" Duration="1" />
+    <TestDuration Test="LLToolkitTest.HeadInsert_NonEmptyList_HeadNextCorrect" Duration="1" />
+    <TestDuration Test="LLToolkitTest.HeadRemove_EmptyList_HeadNextCorrect" Duration="1" />
+    <TestDuration Test="LLToolkitTest.HeadRemove_EmptyList_HeadNext" Duration="1" />
+    <TestDuration Test="LLToolkitTest.HeadRemove_EmptyList_HeadNextIsNull" Duration="1" />
+    <TestDuration Test="LLToolkitTest.HeadRemove_NonEmptyList_HeadNextIsNull" Duration="1" />
+    <TestDuration Test="LLToolkitTest.Insert_EmptyList_HeadNextCorrect" Duration="1" />
+    <TestDuration Test="LLToolkitTest.HeadRemove_Called_NewHeadCorrect" Duration="1" />
+    <TestDuration Test="LLToolkitTest.HeadRemove_EmptyList_HeadIsNull" Duration="1" />
+    <TestDuration Test="LLToolkitTest.HeadRemove_NonEmptyList_HeadIsNull" Duration="1" />
+    <TestDuration Test="LLToolkitTest.HeadRemove_NonEmptyList_HeadIsNextNode" Duration="1" />
+    <TestDuration Test="LLToolkitTest.HeadRemove_EmptyList_NotPossible" Duration="1" />
+    <TestDuration Test="LLToolkitTest.Insert_EmptyList_HeadNextIsNull" Duration="1" />
+    <TestDuration Test="LLToolkitTest.Insert_EmptyList_InsertedNextIsNull" Duration="1" />
+    <TestDuration Test="LLToolkitTest.Insert_NonEmptyList_InsertedValueCorrect" Duration="1" />
+    <TestDuration Test="LLToolkitTest.Copy_NonEmptyList_ValueIsCorrect" Duration="1" />
+    <TestDuration Test="LLToolkitTest.Remove_NonEmptyList_InsertedValueCorrect" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
