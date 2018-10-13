@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\Users\flole\Desktop\GIT_skole\School\DOA\L5.1-5.2_Heaps\Heaps\Debug\MinHeapTest.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="MinHeapUnitTest.Ctor_VanillaHeap_HeapIsEmpty" Duration="1" />
+    <TestDuration Test="MinHeapUnitTest.Ctor_OneElementInserted_HeapIsNotEmpty" Duration="1" />
+    <TestDuration Test="MinHeapUnitTest.Peek_OneElementInserted_CorrectElementInFront" Duration="1" />
+    <TestDuration Test="MinHeapUnitTest.Peek_OneElementInsertedTwoPeeks_CorrectElementInFront" Duration="1" />
+    <TestDuration Test="MinHeapUnitTest.Insert_TwoElementInserted_CorrectElementInFront" Duration="1" />
+    <TestDuration Test="MinHeapUnitTest.Insert_SameElementInsertedTwice_CorrectElementInFront" Duration="1" />
+    <TestDuration Test="MinHeapUnitTest.Insert_TwoElementInsertedReverseOrder_CorrectElementInFront" Duration="1" />
+    <TestDuration Test="MinHeapUnitTest.Insert_FourElementsInsertedUnOrdered_CorrectElementInFront" Duration="1" />
+    <TestDuration Test="MinHeapUnitTest.Remove_OneElementInserted_HeapIsEmpty" Duration="1" />
+    <TestDuration Test="MinHeapUnitTest.Remove_TwoElementsInsertedOneRemoved_HeapIsNotEmpty" Duration="1" />
+    <TestDuration Test="MinHeapUnitTest.Remove_TwoElementsInsertedTwoRemoved_HeapIsEmpty" Duration="1" />
+    <TestDuration Test="MinHeapUnitTest.Remove_SameElementInsertedTwiceThenRemovedOnce_HeapIsNotEmpty" Duration="1" />
+    <TestDuration Test="MinHeapUnitTest.Remove_SameElementInsertedTwiceThenBothRemoved_HeapIsEmpty" Duration="1" />
+    <TestDuration Test="MinHeapUnitTest.Remove_SameElementInsertedOneRemoved_CorrectElementInFront" Duration="1" />
+    <TestDuration Test="MinHeapUnitTest.Remove_TwoElementsInsertedOneRemoved_CorrectElementInFront" Duration="1" />
+    <TestDuration Test="MinHeapUnitTest.Insert_FourElementsInsertedOneRemoved_CorrectElementInFront" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

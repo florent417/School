@@ -1,0 +1,6 @@
+﻿  HeapUnitTest.cpp
+c:\users\flole\desktop\git_skole\school\doa\l5.1-5.2_heaps\heaps\heaps\minheap_201409781florentavdijaj.h(75): warning C4018: '<': signed/unsigned mismatch
+  c:\users\flole\desktop\git_skole\school\doa\l5.1-5.2_heaps\heaps\heaps\minheap_201409781florentavdijaj.h(73): note: while compiling class template member function 'void MinHeap<int>::percolateDown(int)'
+  c:\users\flole\desktop\git_skole\school\doa\l5.1-5.2_heaps\heaps\heaps\minheap_201409781florentavdijaj.h(41): note: see reference to function template instantiation 'void MinHeap<int>::percolateDown(int)' being compiled
+  c:\users\flole\desktop\git_skole\school\doa\l5.1-5.2_heaps\heaps\minheaptest\heapunittest.cpp(18): note: see reference to class template instantiation 'MinHeap<int>' being compiled
+  MinHeapTest.vcxproj -> C:\Users\flole\Desktop\GIT_skole\School\DOA\L5.1-5.2_Heaps\Heaps\Debug\MinHeapTest.exe

@@ -2,6 +2,7 @@
 #include<vector>
 using namespace std;
 
+
 //==================================================
 // CLASS MinHeap
 //==================================================
@@ -18,18 +19,36 @@ public:
 		data.push_back(x);
 
 		//The data needs to be inserted at the right
-		//index, percolateup is called.
-		percolateUp(data.size());
+		//index, percolateup is called. Der er de antal af 
+		//elementer, som bliver kaldt med size, men de står
+		//jo på 1 mindre plads end størrelsen. Man tæller 
+		//fra nul
+		percolateUp(data.size()-1);
 	}
 
 	void remove() 
 	{
+		if (!(isEmpty()))
+		{
+			int zero = 0;
+			//Erase tager en iterator som parameter.
+			//Begin returnerer en iterator til det første
+			//element
+			swap(0, data.size()-1);
+			
+			data.pop_back();
+			
+			percolateDown(0);
+		}
 		// YOUR CODE GOES HERE
+		
 	}
 
 	bool isEmpty()
 	{
 		// YOUR CODE GOES HERE
+		//Ser på om roden overhovedet er der
+		return data.empty();
 	}
 
 	T peek()
@@ -43,16 +62,21 @@ private:
 	void percolateUp(int i) 
 	{
 		// YOUR CODE GOES HERE
-		if (i > 0 && data[i] < data[parent(i)])
+		if (i > 0 && (data[i] < data[parent(i)]))
 		{
-			swap(data[i], data[parent(i)]);
-			percolateUp(i - 1);
+			swap(i, parent(i));
+			percolateUp(parent(i));
 		}
 	}
 
 	void percolateDown(int i) 
 	{
 		// YOUR CODE GOES HERE
+		if (i < data.size() && i >= 0 && (data[i] > data[smallest(i)]))
+		{
+			swap(i, smallest(i));
+			percolateDown(smallest(i));
+		}
 	}
 
 	// Returns index of smallest of i and its parents.
